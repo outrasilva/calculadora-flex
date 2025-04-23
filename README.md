@@ -1,11 +1,26 @@
-# Sample Snack app
+# 📱 Calculadora Flex
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Uma aplicação mobile desenvolvida com **React Native** utilizando **Expo**, que ajuda o usuário a decidir entre abastecer com **etanol** ou **gasolina**, com base nos preços informados.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Tecnologias
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Native Paper](https://callstack.github.io/react-native-paper/)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Funcionalidades
+
+- Inserção do preço do **etanol** e da **gasolina**
+- Cálculo automático da melhor opção de combustível com base na **regra dos 70%**
+- Exibição do resultado de forma clara e direta ao usuário
+
+## Estrutura do Projeto
+
+- `App.js`: Componente principal que gerencia o estado e lógica do app.
+- `components/`
+  - `Container.js`: Estrutura base de layout.
+  - `Header.js`: Cabeçalho personalizado usando React Native Paper.
+  - `Body.js`: Componente que envolve o conteúdo principal.
+  - `Input.js`: Campos de entrada personalizados.
