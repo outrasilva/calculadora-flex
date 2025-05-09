@@ -8,6 +8,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
+- [React Navigation](https://reactnavigation.org/)
 - [React Native Paper](https://callstack.github.io/react-native-paper/)
 
 ## Funcionalidades
@@ -15,12 +16,15 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - Inserção do preço do **etanol** e da **gasolina**
 - Cálculo automático da melhor opção de combustível com base na **regra dos 70%**
 - Exibição do resultado de forma clara e direta ao usuário
+- Navegação entre diferentes telas com React Navigation
+- Registro e acompanhamento de abastecimentos
+- Controle de gastos com o carro
 
-## Estrutura do Projeto
+## Navegação
 
-- `App.js`: Componente principal que gerencia o estado e lógica do app.
-- `components/`
-  - `Container.js`: Estrutura base de layout.
-  - `Header.js`: Cabeçalho personalizado usando React Native Paper.
-  - `Body.js`: Componente que envolve o conteúdo principal.
-  - `Input.js`: Campos de entrada personalizados.
+A aplicação agora conta com múltiplas páginas:
+
+- **Home** – tela inicial
+- **Calculadora** – cálculo entre álcool e gasolina
+- **Abastecimento** – registro de abastecimentos
+- **Gastos** – controle de custos gerais
